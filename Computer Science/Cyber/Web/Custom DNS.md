@@ -1,0 +1,2 @@
+- https://freedns.afraid.org - allows me to set up subdomain with any DNS resolve type. Includes NS, which allows me to choose any IP (including my VM) as the DNS resolver for full DNS customization.
+- https://www.duckdns.org/ - easily rebindable DNS for subdomain, though only IPv4 and IPv6 options.

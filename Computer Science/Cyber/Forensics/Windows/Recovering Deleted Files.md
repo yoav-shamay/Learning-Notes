@@ -1,0 +1,3 @@
+- [[Recycle Bin Folder]]
+- [[$MFT File]]
+- Try various caches of various applications (TODO details).

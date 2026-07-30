@@ -1,0 +1,5 @@
+- All installed apps packages are in `/data/app` folder.
+- You can list them nicely with the `tree -L 2` command.
+- The APK files are also inside the folder, you can rev them with [[APK Files]] to try to see anything suspicious.
+- The app data is usually saved in `/data/[data or user/0]/com.packagename`. Try both, in case one is empty it's probably in the other.
+- Alternatively [[ALEAPP]] allows to see apps and icons.

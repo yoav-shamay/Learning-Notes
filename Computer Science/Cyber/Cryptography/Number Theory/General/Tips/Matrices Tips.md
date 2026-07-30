@@ -1,0 +1,10 @@
+- you can take discrete log if not diagonalizable in polynomial time, You can discrete log a Jordan block of size 2 and more. It's easy for Jordan block of size 2.
+- You can also use an eigenvector to convert discrete log on the matrix to discrete log on a field
+- In general you can "guess" to express the exponent as a linear relation in the result matrix or vector, and create enough equations, solve the equations and see if it works, without even creating the Jordan form (see https://cryptohack.org/challenges/matrix_reloaded/solutions/ alternative guessing solution).
+- take algebraic closure of field for polynomials to fully factor, possible in sagemath
+- you can quickly calculate multiplicative order of matrix on $F_2$ and maybe other finite fields
+- you can take root if the power is coprime to the order by raising to the inverse of the power mod order, similar to RSA
+- try to diagonalize / Jordan Form
+- raising jordan form to a power is easy
+- primary decomposition can split matrix to blocks even when the characteristic polynomial doesn't decompose to linear factors. It will split a block to each irreducible component (if it has an exponent the entire $p(x)^n$ will be one block).
+- Then you can for example pick a smaller expansion so this matrix char polynomial will decompose to linear factors

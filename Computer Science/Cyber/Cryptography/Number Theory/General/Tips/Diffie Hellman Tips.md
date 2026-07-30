@@ -1,0 +1,1 @@
+- discrete log is efficient for smooth primes (p-1 has only small factors, if you control `p` you can abuse it.

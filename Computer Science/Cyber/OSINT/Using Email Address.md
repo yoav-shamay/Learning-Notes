@@ -1,0 +1,7 @@
+- https://epieos.com/?r=1 - great for calendar google plus and some more info.
+- `user_scanner` - script, check to which platforms it is registered. requires python `3.12` at most.
+- `holehe` - an alternative to `user_scanner`
+- https://haveibeenpwned.com/ - check if it appeared in a breach
+- https://github.com/RaphaelGN/OSINT-phone-number-and-email - email2phone number (untested)
+- Search the part before `@` as a [[Usernames|username]]
+- Try sending an email to the address (if a fake one)

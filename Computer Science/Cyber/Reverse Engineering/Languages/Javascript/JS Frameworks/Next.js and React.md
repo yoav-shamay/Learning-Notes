@@ -1,0 +1,1 @@
+- Use the React Developer Tools extension for viewing components

@@ -1,0 +1,11 @@
+- $TIME(f(n))$ - languages decidable in time $O(f(n))$
+- $NTIME(f(n))$ - languages decidable by nondeterministic Turing machine in time $O(f(n))$
+- $SPACE(f(n))$ - languages decidable in space $O(f(n))$
+- $NSPACE(f(n))$ - languages decidable by nondeterministic Turing machine in space $O(f(n))$
+- $P = \bigcup_{k \in \mathbb{N}} TIME(n^k)$
+- $PSPACE=\bigcup_{k\in\mathbb{N}} SPACE(n^k)$
+- $NP = \bigcup_{k \in \mathbb{N}} NTIME(n^k)$
+- $NPSPACE = \bigcup_{k \in \mathbb{N}} NSPACE(n^k)$
+- $L = SPACE(\log(n))$
+- $NL = NSPACE(\log(n))$
+- 

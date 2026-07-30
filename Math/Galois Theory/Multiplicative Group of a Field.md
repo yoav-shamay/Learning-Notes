@@ -1,0 +1,1 @@
+- Every finite subgroup of the multiplicative group of a field is cyclic.

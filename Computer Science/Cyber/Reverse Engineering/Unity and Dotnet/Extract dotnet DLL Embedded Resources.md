@@ -1,0 +1,1 @@
+https://www.nirsoft.net/utils/dot_net_resources_extract.html

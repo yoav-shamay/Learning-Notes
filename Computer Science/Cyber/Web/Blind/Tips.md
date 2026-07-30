@@ -1,0 +1,1 @@
+- Check loaded JS files in addition to HTML as it might reference hidden features.

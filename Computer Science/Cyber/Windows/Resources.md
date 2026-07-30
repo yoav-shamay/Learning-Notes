@@ -1,0 +1,1 @@
+- https://thelearningjourneyebooks.com/ebooks/TheWindowsConceptJourney_v6_March2025.pdf - Shlomi book

@@ -1,0 +1,2 @@
+- Accounts are usually created around the time of the CTF, useful as sanity check.
+- Try to look for social media used in the country of the CTF organizers / nationality of fake account.

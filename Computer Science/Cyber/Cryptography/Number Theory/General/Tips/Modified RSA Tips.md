@@ -1,0 +1,3 @@
+- If you have $msg^{a_1}$ and $msg^{a_2}$ you can find $msg^{gcd(a_1,a_2)}$ using extended gcd to find $x_1a_1+x_2a_2=gcd(a_1,a_2)$. If $a_1,a_2$ are coprime you can recover $msg$
+- Remember $msg^{phi(n)}=1$, so $msg^x=msg^{phi(n)+x}$, can use for math behind the scenes, especially if $x$ depends on $p,q$.
+- If $pt^e < n$ (small $e$ for example) or its a small multiple of n you can recover by just taking the `e`th root of $ct$ (maybe after bruteforcing adding n a few times)

@@ -1,0 +1,9 @@
+- A linear transformation $T$ is normal iff $TT^* = T^*T$.
+- A matrix M is normal iff $MM^* = M^*M$
+- Equivalent - given an orthonormal basis $B$, $T$ is normal iff $[T]_B$ is normal.
+- Every hermitian (symmetrical on reals) matrix / transformation is normal
+- Every anti-hermitian matrix / transformation is normal
+- Every normal transformation with only real eigenvalues (roots of characteristic polynomials in the real case) is self-adjoint.
+- If for every root $x$ of the characteristic polynomial of a normal transformation $|x| = 1$ then the transformation is unitary.
+- For normal $T$, each eigenvector $v$ of $\lambda$ of $T$ is an eigenvector of $\overline{\lambda}$ of $T^*$.
+- 

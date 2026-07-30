@@ -1,0 +1,13 @@
+- a linear transformation $T: V \rightarrow V$ where $V$ is an inner product space is called Unitary if $TT^* = T^*T = I$
+- Is also called orthogonal if $V$ is on $\mathbb{R}$
+- Also called an isometry (איזומטריה)
+- בעברית: אוניטרית
+- $(Tu, Tv) = (u, v)$ for every $u, v \in V$ iff T is unitary
+- $||Tu|| = ||u||$ for every $u \in V$ iff T is unitary
+- $T$ transforms any orthonormal basis to an orthonormal basis iff $T$ is unitary.
+- For every eigenvalue $\lambda$ of an unitary transformation, $|\lambda$| = 1
+## Unitary Matrix
+- Similarly defined: matrix $M$ where $M^{-1} = M^*$
+- equivalent - for an orthonormal basis $B$, $[T]_B$ is unitary iff T is unitary.
+- A matrix is unitary iff its rows (or columns) are an orthonormal basis of $F^n$
+- For every eigenvalue $\lambda$ of an unitary matrix, $|\lambda$| = 1

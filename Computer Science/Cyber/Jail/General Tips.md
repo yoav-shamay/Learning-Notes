@@ -1,0 +1,3 @@
+- In case the jail still uses `eval` or similar, you might be able to modify or use variables / functions of the jail itself, allowing to reduce limitations
+- Look for golfing tips in the language, as they can be also used to bypass character restrictions.
+- Backslash before quotes can disable them.

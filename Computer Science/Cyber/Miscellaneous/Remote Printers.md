@@ -1,0 +1,3 @@
+- Windows setup (TODO details)
+- `system-config-printer` on linux
+- Try connecting using SMB

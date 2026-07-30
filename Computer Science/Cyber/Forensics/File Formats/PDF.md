@@ -1,0 +1,1 @@
+- doesn't really have magic bytes, they usually start with `%PDF` but its location is flexible in reality.

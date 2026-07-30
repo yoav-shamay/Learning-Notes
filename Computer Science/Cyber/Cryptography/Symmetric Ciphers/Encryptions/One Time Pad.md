@@ -1,0 +1,2 @@
+- Xor, but where plaintext size is at most the key size
+- Unbreakable assuming key is generated uniformly

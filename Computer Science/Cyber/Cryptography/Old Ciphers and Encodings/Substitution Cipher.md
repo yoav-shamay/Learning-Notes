@@ -1,0 +1,3 @@
+- https://wilsoa.github.io/gallery/frequency_analysis.html - frequency analysis helper, shows frequencies and can type partial solution to visualize it.
+- https://www.dcode.fr/monoalphabetic-substitution - a good solver.
+- https://www.guballa.de/substitution-solver - relatively good starting point.

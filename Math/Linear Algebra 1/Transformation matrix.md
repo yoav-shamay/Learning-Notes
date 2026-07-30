@@ -1,0 +1,3 @@
+The transformation matrix of a linear transformation $T: V \rightarrow W$ over a basis $B_V = (a_1, ..., a_n)$ and $B_W = (b_1, ..., b_m)$ is an $m \times n$ matrix where its $i$th column is $[T(a_i)]_{B_W}$ (the coordinates of $T(a_i)$ over $B_W$).
+It satisfies $[T(x)]_{B_W} = M[x]_{B_v}$, which means applying the transformation is equivalent to multiplying by the matrix (if you look at coordinates).
+Frequently if the domain is equal to the range of the transformation, you define it over a single basis (the same basis for both the domain and range).

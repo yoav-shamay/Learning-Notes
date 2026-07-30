@@ -1,0 +1,3 @@
+- Try to add to your own server, where you control everything like channels, roles
+- Try DMing.
+- Try to ask `!help` or `/help` or with whatever command format to see available commands

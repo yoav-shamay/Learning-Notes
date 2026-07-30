@@ -1,0 +1,2 @@
+- `uu` encoding - start with `begin ... uudeview` and ends with `end`, random characters (not detected by cyberchef magic)
+- 

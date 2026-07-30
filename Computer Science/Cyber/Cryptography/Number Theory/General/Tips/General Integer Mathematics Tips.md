@@ -1,0 +1,6 @@
+- If secret data (msg/private key) uses small numbers, try maybe to find a lattice expressing the problem where the msg can appear in a CVP difference / SVP of the lattice,
+- You can replace $x = a$ or $x = b$ mathematically with $(x - a)(x - b) = 0$, can be done with more than 2 options
+- You can simulate running a linear recurrence a lot of times using matrix exponentiation - progressing one step is multiplying by a matrix.
+- Given $a^2 = b^2 \mod{n}$ which is non trivial (most likely) you can factor n
+- Like RSA, in general, you can take the $n$th root of $x$ on a finite group by raising to the $n^{-1} \pmod{\text{order}}$ power, if $\gcd(n, order) = 1$, where $order$ is the order of the element you raised, which should be equal to the order of $x$ when the conditions apply.
+- This works for a lot of stuff - numbers mod $p$, matrices, and probably other stuff.

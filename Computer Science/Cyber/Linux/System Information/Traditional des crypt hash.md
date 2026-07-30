@@ -1,0 +1,3 @@
+- Used to hash passwords in `/etc/passwd` for older systems, but still works.
+- Can be generated using `openssl passwd <password>`
+- Weak and can be broken (TODO verify)

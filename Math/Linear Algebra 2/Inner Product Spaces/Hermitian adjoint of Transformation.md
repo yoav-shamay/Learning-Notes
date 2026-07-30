@@ -1,0 +1,9 @@
+- Given a linear transformation T on inner product spaces $V_1$ to $V_2$, its Hermitian adjoint is a linear transformation $T^*$ from $V_2$ to $V_1$ a for every $u \in V_1, v \in V_2$: $(Tu, v) = (u, T^*v)$.
+- It's unique and can be found given an orthonormal basis $(w_1, w_2, ..., w_n)$ as $T^*v = \sum_{i=1}^n \overline{(Tw_i, v)}w_i$
+- Given an orthonormal basis $B$, $[T^*]_B = {[T]_B}^*$ where $M^*$ is the hermitian adjoint matrix (transpose and adjoint every element).
+- $T^{**} = T$
+- $(S+T)^* = S^*+T^*$
+- $(\alpha T)^* = \overline{\alpha}T^*$
+- $I^* = I, 0^* = 0$
+- $(T^*)^{-1} = (T^{-1})^*$
+- $(ST)^* = T^*S^*$

@@ -1,0 +1,1 @@
+Can record tcp packets passing through this computer, and has filtering capability.

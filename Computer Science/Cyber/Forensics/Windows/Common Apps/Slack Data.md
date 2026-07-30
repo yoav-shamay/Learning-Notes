@@ -1,0 +1,3 @@
+- Files can be found in cache
+- chat messages can be found in strings (even in a binary file) inside a `IndexedDb` folder file (`grep` for keywords)
+- 

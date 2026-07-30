@@ -1,0 +1,4 @@
+- Ghidra with ghidra-wasm-plugin can reverse + decompile (best)
+- For ghidra wasm - currently https://github.com/Yanndroid/ghidra-wasm-plugin/tree/patch-1 is latest, prob will be merge until next time I want to install it
+-  `wabt` has `wasm2c` for decompilation
+- IDA can reverse, no decompilation though

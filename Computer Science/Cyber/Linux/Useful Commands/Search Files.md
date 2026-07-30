@@ -1,0 +1,2 @@
+- By name: `find path -name "pattern"`. Can add `-L` to follow symlinks.
+- By content: `grep -R "pattern" path`.

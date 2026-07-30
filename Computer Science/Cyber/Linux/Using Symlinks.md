@@ -1,0 +1,2 @@
+- You can symlink to a non-existing file, and if when opening the file it is configured to create a non-existent file it will create the file you symlinked to.
+- 

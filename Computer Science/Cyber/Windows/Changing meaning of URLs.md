@@ -1,0 +1,1 @@
+Edit the `hosts` file, in `C:\Windows\System32\drivers\etc\`.

@@ -1,0 +1,7 @@
+- TCP ports are between 1 and 65535 in tcp / udp
+- port 0 is reserved
+- HTTP - usually port 80
+- HTTPS - port 443
+- NETBIOS - port 139
+- SMB - port 445
+- Well known ports: 0-1024

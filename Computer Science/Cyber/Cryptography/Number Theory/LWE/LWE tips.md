@@ -1,0 +1,2 @@
+- You can do algebraic manipulations to the equation (like multiplying everything by a constant or subtracting something to shift the error range) in order to simplify it or reduce the error magnitude
+- LLL might be worth a shot especially when the errors are very small (or can be made small)

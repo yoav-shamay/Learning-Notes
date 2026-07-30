@@ -1,0 +1,2 @@
+- The hermitian adjoint of a matrix is transposing and adjoint of every element.
+- Formally, if $M = [a_{ij}]$, then $M^* = [\overline{a_{ji}}]$.

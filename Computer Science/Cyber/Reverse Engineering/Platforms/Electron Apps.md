@@ -1,0 +1,1 @@
+Has an `.asar` file in `resources` with all the source code.

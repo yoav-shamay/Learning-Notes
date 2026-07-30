@@ -1,0 +1,2 @@
+The `LD_PRELOAD` environment variable allows you to set a shared library to be loaded in top priority.
+This can easily override libc functions to do what you want, and doesn't require any installation.

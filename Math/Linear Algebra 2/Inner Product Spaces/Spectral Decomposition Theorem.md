@@ -1,0 +1,12 @@
+- Given a normal linear transformation $T: V \rightarrow V$ on $\mathbb{C}$ or a symmetric $T$ on $\mathbb{R}$, if $V_{\lambda_i}$ is the linear subspace of the i-th eigenvalue, and $P_i$ as the orthogonal projection on $V_{\lambda_i}$
+- $T = \lambda_1 P_1 + \lambda_2 P_2 + ... + \lambda_n P_n$
+- $I = P_1 + P_2 + ... + P_n$
+- $0_V = P_i P_j$ for $i \neq j$
+- $P_i^2 = P_i$
+- $P_i^* = P_i$
+- $V_{\lambda_1} \oplus V_{\lambda_2} \oplus ... \oplus V_{\lambda_n} = V$
+- for every $i \neq j$, $V_{\lambda_i} \perp V_{\lambda_j}$
+## Conclusions
+- $T^n = (\lambda_1)^n P_1 + (\lambda_2)^n P_2 + ... + (\lambda_n)^n P_n$
+- $T^* = \overline{\lambda_1}P_1 + \overline{\lambda_2}P_2 + ... + \overline{\lambda_n}P_n$
+- 

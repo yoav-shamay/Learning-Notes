@@ -1,0 +1,2 @@
+- `C:\Users\username\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt` (best)
+- `Windows Powershell.evtx` [[Windows Event Logs]]

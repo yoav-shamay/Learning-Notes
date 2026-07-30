@@ -1,0 +1,15 @@
+- If $T^* = T$ then T is self-adjoint
+- T is called hermitian on C
+- T is called symmetrical if it's on R
+- Similarly defined for a matrix
+- T is self adjoint iff any representing matrix on an orthonormal basis is self adjoint.
+- if $T_1, T_2$ are self adjoint then $\alpha_1 T_1 + \alpha_2 T_2$ is hermitian.
+- if $T$ is self adjoint then $T^*T, TT^*$ are self adjoint
+- if $T^* = -T$ then T is called anti-hermitian (or anti-symmetric on R)
+- Every transformation $T$ can be uniquely represented as $T = T_1 + T_2$ where $T_1 = T_1^*$ and $T_2$ is anti-hermitian
+- $T_1 = \frac{1}{2}(T + T^*)$
+- $T_2 = \frac{1}{2}(T - T^*)$
+- on $\mathbb{C}$, $T$ is hermitian iff $(Tu, u) \in \mathbb{R}$ for every $u \in V$
+- on $\mathbb{C}$, $T$ is anti-hermitian iff $(Tu, u)$ is imaginary for every $u \in V$.
+- Every eigenvalue of a self adjoint transformation / matrix is real (every root of the characteristic polynomial on $\mathbb{R}$)
+- The Characteristic Polynomial of self-adjoint transformations decomposes to linear factors over $\mathbb{R}$.

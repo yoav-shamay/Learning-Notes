@@ -1,0 +1,5 @@
+- Polynomial of any degree, if you only evaluate at x coordinates of a finite order $x$, will be equivalent to a polynomial of degree at most $x$ where the `ith` coefficient will be the sum of all coefficients that are $i \mod{x}$
+- If there's a polynomial of even degree $n$, you can use $n/2$ pairs of points with $(x, y_1), (-x, y_2)$ (total $n$ points) to recover $n / 2$ points of $p(x) - p(-x)$, which is of degree $n - 1$, and there are $n / 2$ zero coefficients, so you can recover the rest, and all odd coefficients of this polynomial are the odd coefficients of $p$ times 2.
+- If there's a secret polynomial $p(x)$ of degree $n$, you know $k$ coefficients and $n + 1 - k$ points you can recover the rest of the coefficients as a system of linear equations.
+- for polynomial of degree n to factor on $GF(2)$ you can use the extension $GF(2^n)$ or any $2^m$ where $n | m$
+- you can take the algebraic closure of a field for polynomials to fully factor, extremely useful on matrices

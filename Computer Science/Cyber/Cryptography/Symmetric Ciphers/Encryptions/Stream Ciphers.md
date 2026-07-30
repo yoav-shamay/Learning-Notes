@@ -1,0 +1,2 @@
+- A pseudo-random sequence is generated from the key
+- It's XORed with the plaintext (or added)

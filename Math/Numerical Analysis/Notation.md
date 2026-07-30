@@ -1,0 +1,5 @@
+- $C^{n}[a, b]$ - all functions with $n$ continuous derivatives on $[a, b]$.
+- For a sequence $p_n$, $\Delta p_n = p_{n + 1} - p_n$
+- $\Delta^k p_n = \Delta(\Delta^{k - 1}p_n)$ (where delta of sum / difference is the sum / difference of deltas)
+- $\nabla p_n = p_n - p_{n - 1}$
+- $\nabla^k p_n = \nabla(\nabla^{k-1}p_n)$

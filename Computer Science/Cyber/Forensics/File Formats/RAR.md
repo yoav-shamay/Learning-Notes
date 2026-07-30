@@ -1,0 +1,1 @@
+- RAR files can have comments, can read them with `strings` or by opening with WinRAR

@@ -1,0 +1,7 @@
+- A linear transformation is diagonalizable if its matrix is diagonal under some basis.
+- A matrix $M$ is diagonalizable if there's a matrix $P$ such that $P^{-1}MP$ is a diagonal matrix.
+- Its equivalent - a linear matrix is diagonalizable iff its matrix under any basis is diagonalizable.
+- The diagonal of this matrix is all the eigenvalues of $M$.
+- The columns of $P$ are eigenvectors of $M$ and form a basis.
+- A matrix is diagonalizable iff its characteristic polynomial decomposes to linear factors and the geometric multiplicity is equal to the algebraic multiplicity of every eigenvalue.
+- The amount of times an eigenvalue appears in the diagonal of the diagonal matrix is the multiplicity of the eigenvalue.

@@ -1,0 +1,6 @@
+- [[hashcat]]
+- https://crackstation.net/ (many hash types, instant)
+- https://md5decrypt.net/en/ (has many hashes, instant)
+- https://ntlm.pw/ (ntlm hashes, instant)
+- Another possible brute force, other than `rockyou.txt`, is `john hash.txt`, might want to try as its different, TODO details.
+- TODO wordlists other than rockyou.txt?

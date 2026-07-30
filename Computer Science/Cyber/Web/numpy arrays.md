@@ -1,0 +1,2 @@
+- numpy arrays use by default the `int64` type, that allows for overflow/underflow
+- When trying to add / assign number that doesn't fit on the type, it will raise an `OverflowError`.

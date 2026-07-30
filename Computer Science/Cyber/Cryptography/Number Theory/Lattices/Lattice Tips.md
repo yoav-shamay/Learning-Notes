@@ -1,0 +1,3 @@
+- Usually we search for the answer to be the SVP or the CVP for the lattice.
+- If it's a significant difference, or the lattice is small, LLL or other approximations should be sufficient.
+- Try finding a small number as a linear combination of numbers

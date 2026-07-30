@@ -1,0 +1,10 @@
+- $A$ is called nilpotent if $A^k = 0$. The minimal $k$ is called the nilpotent index, and $A$ is said to be nilpotent matrix of order $k$.
+- $A$ is nilpotent iff $P_A(x) = x^{n}$. in this case $M_A(x) = x^k$ and $k$ is the nilpotent index
+- if $A$ is nilpotent then it can be trianglized
+- If $A \neq 0$ is nilpotent then it isn't diagonalizable.
+- All equivalently for transformations
+- In general, $\{0\} \subseteq \ker(T^0) \subseteq \ker(T^1) \subseteq\ ...$
+- $T$ is nilpotent of order $k$ iff $\{0\} \subset \ker(T^0) \subset ... \subset \ker(T^k) = v$
+- $A$ has a single eigenvalue $\lambda$ iff $A - \lambda I$ is nilpotent and the index is the power of $\lambda$ in $M_A(x)$
+- same for linear transformations
+- There exists a matrix/polynomial of order $n$: the shift matrix ($a_{i,i+1} = 1$, everything else 0), or the transformation $T(b_1) = 0, T(b_i) = b_{i-1}$ for basis $b$.

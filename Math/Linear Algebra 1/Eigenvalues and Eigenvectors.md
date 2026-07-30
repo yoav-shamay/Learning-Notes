@@ -1,0 +1,9 @@
+- Given a linear transformation $T$, $\lambda$ is an eigenvalue of $T$ if there exists $v \in V$ such that $T(v) = \lambda v$
+- Similarly, $v$ is called an eigenvector.
+- Similarly eigenvalues and eigenvectors of matrices are defined (you multiply by the matrix by the left) and are equivalent.
+- All eigenvectors of a given eigenvalue are a linear space.
+- Its dimension is called the geometric multiplicity of the eigenvalue.
+- All eigenvalues are roots of the polynomial $det(\lambda M - I)$.
+- It's called the Characteristic Polynomial.
+- The degree of $(x - \lambda)$ in the characteristic polynomial is called the algebraic multiplicity of the eigenvalue.
+- The geometric multiplicity of an eigenvalue is less than or equal to its algebraic multiplicity.

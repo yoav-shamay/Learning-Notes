@@ -1,0 +1,4 @@
+- Augustus cipher - variation of caesar cipher where `z` is replaced with `aa` instead.
+- Bucking cipher - musical notes - https://legacy.wmich.edu/mus-theo/ciphers/bucking.html worked, there's also https://upload.wikimedia.org/wikipedia/commons/a/a1/B%C3%BCcking_Music_Cipher.jpg. there are some other musical ciphers.
+- Pigpen cipher - substitution with a bunch of things that look like right angles and parts of square / triangles with some dots/
+- Cristercian numerals - things with a bunch of geometric lines, usually a line in the middle and some stuff in bottom and top. https://akosnikhazy.github.io/cistercian-numerals/ to convert.

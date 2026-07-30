@@ -1,0 +1,9 @@
+- Run docker container from file: `docker-compose up`, if there is a provided docker compose yaml file
+- Alternatively, run the following: `docker build -t challenge .` and then `docker run challenge`. If the app listens on port 8000 for example change the command to `docker run -p 8000:8000 challenge` to access the port locally
+- If it says some error, try to add `—privileged` before the image name
+- If it still doesn't work, try `docker run -it --rm --cap-add=SYS_ADMIN  --security-opt seccomp=unconfined --cgroupns=private challenge`
+- You can view a docker container files with `docker save`, check for config files and such.
+- View running containers: `docker container list`
+- View image list: `docker image list`
+- Get shell in running container: on a different terminal, run `docker exec -it container_id /bin/bash` (or use `/bin/sh`)
+- 

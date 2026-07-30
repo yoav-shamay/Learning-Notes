@@ -1,0 +1,6 @@
+- `> out`: overwrite file `out` with the stdout of the preceding command. might fail if the file exists, in this case you can use `>| out` to overwrite anyway
+- `>> out`: append stdout of the command to file `out`
+- `< in`: the `stdin` of the command will be read from file `in`
+- You can add `n` before the redirection to use file descriptor number `n` instead, for example `n> out`
+- `>& out` or `&> out` (the latter is preferred): overwrite file `out` with stdout + stderr of the preceding command.
+- `&>> out`: append the stdout + stderr of the preceding command to file `out`

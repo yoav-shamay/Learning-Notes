@@ -1,0 +1,6 @@
+- Try xor of text with the original text, see if you can see a pattern
+- Look at unknown ciphertext in CyberChef `Magic` tool, also try `Intensive Mode`.
+- Common ciphers: rot13, Caesar cipher, vigenere cipher.
+- The result has to be a multiple of 8 bits.
+- In case of encoding in a special format, like a chess game, try to think how I would encode it.
+- Commonly used: aes-256-cbc. to decrypt: `openssl enc -aes-256-cbc -d -in encryptedfile -kfile keyfile`

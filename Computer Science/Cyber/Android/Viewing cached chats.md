@@ -1,0 +1,2 @@
+- Is available for every app that works without internet.
+- Cached chats are usually stored in `/data/[data or user/0]/app`, along with all the app data.  Try both, in case one is empty it's probably in the other.

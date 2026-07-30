@@ -1,0 +1,9 @@
+- A matrix M is unitary diagonalizable if there's a unitary matrix $Q$ such that $Q^{-1}MQ = D = diag(\lambda_1,\lambda_2,...,\lambda_n)$.
+- A linear transformation $T$ is unitary diagonalizable if there's an orthonormal basis B such that $[T]_B = D = diag(\lambda_1,\lambda_2,...,\lambda_n)$.
+- equivalent - a linear transformation is unitary diagonalizable iff its representing matrix on an **orthonormal** basis is unitary diagonalizable.
+- T is unitary diagonalizable iff $T^*$ is unitary diagonalizable
+- $M$ is unitary diagonalizable if there's an orthonormal basis of eigenvectors of $M$.
+- $T$ is unitary diagonalizable if there's an orthonormal basis of eigenvectors of the $T$. In this basis $T$ is represented by a diagonal matrix.
+- A matrix / transformation on $\mathbb{C}$ is unitary diagonalizable iff its normal.
+- A matrix / transformation on $\mathbb{R}$ is unitary diagonalizable iff its symmetric.
+- The process of unitary diagonalization is finding an orthonormal basis for each eigenspace independently

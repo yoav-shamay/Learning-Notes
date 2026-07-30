@@ -1,0 +1,4 @@
+- Similar in format to JWT
+- Can be parsed but not created without secret key
+- Can be parsed in cyberchef
+- Also here: https://www.kirsle.net/wizards/flask-session.cgi
