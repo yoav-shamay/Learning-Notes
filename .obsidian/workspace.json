@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Doing http requests.md",
+                "file": "Math/Ordinary Differential Equations/Explicit ODEs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Doing http requests"
+              "title": "Explicit ODEs"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Doing http requests.md",
+                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Doing http requests"
+              "title": "Backlinks for Simple Web Server"
             }
           },
           {
@@ -113,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Doing http requests.md",
+                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Doing http requests"
+              "title": "Outgoing links from Simple Web Server"
             }
           },
           {
@@ -156,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Doing http requests.md",
+                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Doing http requests"
+              "title": "Outline of Simple Web Server"
             }
           },
           {
@@ -194,6 +196,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5ac418f51513397",
-  "lastOpenFiles": []
+  "active": "1e71518443053ece",
+  "lastOpenFiles": [
+    "Math/Ordinary Differential Equations/Missing Equations.md",
+    "Math/Ordinary Differential Equations/Explicit ODEs.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Substitution of Variables.md",
+    "Math/Real Analysis/Differentials.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Exact Equations.md",
+    "Math/Ordinary Differential Equations/General Order ODEs",
+    "Math/Ordinary Differential Equations/First Order ODEs/Symmetric Form.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Slope Field.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Linear First Order ODEs.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Existence and Uniqueness Theorem.md",
+    "Math/Ordinary Differential Equations/Second Order ODEs/Second Order ODEs.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Other Special Equation Types.md",
+    "Math/Ordinary Differential Equations/Second Order ODEs",
+    "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
+    "Computer Science/Cyber/Linux/Useful Commands/Search Files.md",
+    "Computer Science/Cyber/Linux/Useful Commands/Doing http requests.md"
+  ]
 }
