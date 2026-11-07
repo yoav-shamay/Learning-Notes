@@ -1,10 +1,10 @@
 ## General Tips
 - You can use `>$(<flag.txt)` to create a file with the name of the flag and try to leak file names
-- You can use `echo *` to see all files in a directory, you can use `echo */*` to see recursively. Similarly you can use `cat` to output the files, or any other command.
 - If there are multiple challenges on the same machine, you can try to store data as a file in a temporary directory, and then read the file in another challenge.
 - You can try to use `scp` to move a bash script or binary there, that I can run more easily.
 - You can chain commands with `|` (pass stdout of before to stdin of after) or with `;` (just run 2 separate commands).
 - You can create a shell script with execute permissions on some unrestricted shell, with name that fits the limits (short / uppercase/  digits / whatever), and then you just need to run it.
+- Read manpage of runnable commands, might have features that allow RCE.
 ## Seeing available commands
 You can filter the outputs for badchars with `grep` or something.
 - `compgen -c` - all executables in path, builtins, aliases, functions and keywords
@@ -34,6 +34,10 @@ In case there are multiple challenges in the machine and you can get a shell wit
 - `logger <text>`, and viewing system logs
 - `wall <text>`, and the message might be visible in the other shell.
 - You can pass the text as an argument for a command that takes a while (like `vi`) , and quickly see it using `ps axf` on another shell.
+## Viewing files in directory
+- `ls /path`
+- `echo /path/*`
+- `dir /path`
 ## Outputting a file
 - `cat flag.txt`
 - `echo $(<flag.txt)`
@@ -53,13 +57,14 @@ Works if the limitations are in the shell and not a wrapper.
 - `bash`
 - `sh`
 - `$0`
+- `$_`
 - `python`, then type: `import os; os.system("/bin/bash")`
 ## Running code that's the output of a command
-- ``eval `cmd` `` - see [[#Running commands from arguments]]
 - `smth | python -`
 - `$($(cmd))`
 - TODO nested backticks
 ### Running commands from arguments
+Can replace argument with `` `cmd` `` to make it the output of another command 
 - `eval cmd`
 - `perl -e cmd`
 - `find -exec cmd \;`
@@ -92,9 +97,9 @@ Works if the limitations are in the shell and not a wrapper.
 - `echo encoded | base64 -d`. encode: `echo text | base64`
 - `echo encoded | xxd -p -r`. encode: `echo text | xxd -p`
 - `printf "smth"` allows encoding (see manpage, `\oct` is probably the most flexible).
-
 ### Getting environment variables
-`ssh` by default sends `LANG` and `LC_*` (`*` can be replaced by anything) environment variables to the server, which means you can put anything in them and access them in the server using `$LC_smth` or `printenv LC_smth` (or `env` for all environment variables).
+`ssh` by default sends `LANG` and `LC_*` (`*` can be replaced by anything) environment variables to the server, which means you can put anything in them and access them in the server using one of:
+- `$LC_smth`
 - `env` - gets all environment variables.
 - You can then filter a specific environment variable using substring search
 - You can evaluate the entire output of `env` after setting an environment variable to `| cmd #` to ignore all the other values.

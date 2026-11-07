@@ -10,7 +10,7 @@
 ## Standard Inner Multiplications
 - standard inner multiplication over $\mathbb{R}^n$ or $\mathbb{C}^n$ - $\sum_i a_i * \overline{b_i}$
 - on matrices: $(A,B) = tr(\overline{B}A)$
-- For $b > a$ the standard inner multiplication over $R[x]$ or $R_n[x]$ is $(f, g) = \int_a^b f(x)*g(x)dx$ 
+- On function over $[a, b]$: $(f, g) = \int_a^b f(x)*g(x)dx$ 
 ## Simple Properties
 - $(a, b + c) = (a, b) + (a, c)$
 - $(a + b, c + d) = (a, c) + (a, d) + (b, c) + (b, d)$

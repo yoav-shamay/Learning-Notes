@@ -1,3 +1,5 @@
+- https://quipqiup.com/ - good online solver
+- https://www.dcode.fr/monoalphabetic-substitution - another good solver.
+- https://www.guballa.de/substitution-solver - another good solver
+- https://inventivehq.com/tools/security/substitution-cipher - semi-automatic solver
 - https://wilsoa.github.io/gallery/frequency_analysis.html - frequency analysis helper, shows frequencies and can type partial solution to visualize it.
-- https://www.dcode.fr/monoalphabetic-substitution - a good solver.
-- https://www.guballa.de/substitution-solver - relatively good starting point.

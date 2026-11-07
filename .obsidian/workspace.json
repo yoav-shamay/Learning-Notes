@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a5ac418f51513397",
+            "id": "0753d2617a1db5e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Ordinary Differential Equations/Explicit ODEs.md",
+                "file": "Computer Science/Cyber/Reverse Engineering/Tools/Dynamic/GDB Python API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Explicit ODEs"
+              "title": "GDB Python API"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "small_roo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 335.5
   },
   "right": {
     "id": "e3874a802c114262",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
+                "file": "Computer Science/Cyber/Reverse Engineering/Tools/Dynamic/GDB Python API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Simple Web Server"
+              "title": "Backlinks"
             }
           },
           {
@@ -115,12 +115,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
+                "file": "Computer Science/Cyber/Reverse Engineering/Tools/Dynamic/GDB Python API.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Simple Web Server"
+              "title": "Outgoing links"
             }
           },
           {
@@ -158,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
+                "file": "Computer Science/Cyber/Reverse Engineering/Tools/Dynamic/GDB Python API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Simple Web Server"
+              "title": "Outline"
             }
           },
           {
@@ -196,23 +196,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e71518443053ece",
+  "active": "4840b2f1079780f1",
   "lastOpenFiles": [
-    "Math/Ordinary Differential Equations/Missing Equations.md",
-    "Math/Ordinary Differential Equations/Explicit ODEs.md",
-    "Math/Ordinary Differential Equations/First Order ODEs/Substitution of Variables.md",
-    "Math/Real Analysis/Differentials.md",
-    "Math/Ordinary Differential Equations/First Order ODEs/Exact Equations.md",
-    "Math/Ordinary Differential Equations/General Order ODEs",
-    "Math/Ordinary Differential Equations/First Order ODEs/Symmetric Form.md",
-    "Math/Ordinary Differential Equations/First Order ODEs/Slope Field.md",
-    "Math/Ordinary Differential Equations/First Order ODEs/Linear First Order ODEs.md",
-    "Math/Ordinary Differential Equations/First Order ODEs/Existence and Uniqueness Theorem.md",
-    "Math/Ordinary Differential Equations/Second Order ODEs/Second Order ODEs.md",
-    "Math/Ordinary Differential Equations/First Order ODEs/Other Special Equation Types.md",
-    "Math/Ordinary Differential Equations/Second Order ODEs",
-    "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
-    "Computer Science/Cyber/Linux/Useful Commands/Search Files.md",
-    "Computer Science/Cyber/Linux/Useful Commands/Doing http requests.md"
+    "Computer Science/Cyber/Reverse Engineering/Tools/Dynamic/GDB.md",
+    "Computer Science/Cyber/Reverse Engineering/Tools/Dynamic/GDB Python API.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Affine Functions.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Affine Subspaces.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Definitions on Functions.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Polar Form.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Isometries.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Cross Product.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Convex Sets.md",
+    "Math/Calculus 3/Higher Dimension Geometry/Balls.md",
+    "Math/Calculus 3/Higher Dimension Geometry",
+    "Math/Ring Theory/Polynomials on Unique Factorization Domains.md",
+    "Math/Calculus 3",
+    "Computer Science/Cyber/Cryptography/Old Ciphers and Encodings/Substitution Cipher.md",
+    "Computer Science/Cyber/Cryptography/Hashes/Attacks/Floyd's cycle-finding algorithm.md",
+    "Computer Science/Cyber/Cryptography/Number Theory/General/Implementations/Python/Polynomials in sagemath.md",
+    "Computer Science/Cyber/Cryptography/Number Theory/General/Algorithms/Coppersmith Method.md",
+    "Computer Science/Cyber/Jail/Python Jail Escape.md",
+    "Computer Science/Cyber/Jail/PHP Jail Escape.md",
+    "Computer Science/Cyber/Jail/General Tips.md",
+    "Computer Science/Cyber/Jail/Bash Jail Escape.md",
+    "Computer Science/Cyber/Forensics/Steganography.md",
+    "Computer Science/Cyber/Forensics/Printer Dots.md",
+    "Computer Science/Cyber/Forensics/Windows/Common Apps/Slack Data.md",
+    "Computer Science/Cyber/Forensics/Windows/Common Apps/Zoom Data.md",
+    "Computer Science/Cyber/Forensics/Windows/Common Apps/Browser data.md",
+    "Computer Science/Cyber/Forensics/Windows/Connected USB Devices.md",
+    "Computer Science/Cyber/Forensics/Windows/Clipboard History.md",
+    "Math/Number Theory/Continued Fractions Image.png",
+    "Math/Algebra",
+    "Math/Differential Equations/Ordinary Differential Equations/First Order ODEs/~syncthing~Other Special Equation Types.md.tmp",
+    "Math/Linear Algebra 2/Inner Product Spaces/~syncthing~Inner product space.md.tmp",
+    "Math/Linear Algebra 2/Inner Product Spaces/~syncthing~Infinite Orthonormal Systems.md.tmp",
+    "Math/Linear Algebra 2/Inner Product Spaces/~syncthing~Continuous Functions Space.md.tmp",
+    "Math/Differential Equations/Ordinary Differential Equations/~syncthing~Sturm-Liouville Problems.md.tmp",
+    "Math/Differential Equations/Ordinary Differential Equations/~syncthing~Wronskian.md.tmp",
+    "Math/Differential Equations/Ordinary Differential Equations/Linear ODEs"
   ]
 }

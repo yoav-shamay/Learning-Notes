@@ -1,21 +1,15 @@
 ## Square Root
-Using builtin math:
 Returns floor of square root
 ```python
+import math
 sqrt = math.isqrt(n)
-# sqrt ^ 2 = n
+sqrt = isqrt(n) # sagemath
 ```
 ## General Root
 Using sagemath:
-Returns exact root, raises exception if doesn't exist
 ```python
-res = Integer(n).nth_root(m)
+res = Integer(n).nth_root(m) # exact root, raises exception if doesn't exist
 # res ^ m = n
-```
-Using gmpy2:
-Returns floor of root
-```python
-res, exact = gmpy2.iroot(n, m)
-# res ^ m = n
-# exact stores if it's an exact root
+res, is_perfect = Integer(n).nth_root(m, truncate_mode=True) # floor of root
+# is_perfect = True if it's exact, false if not
 ```

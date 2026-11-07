@@ -27,7 +27,7 @@ For general ring:
 ### Euclidean algorithm code
 ```python
 def pol_gcd(a, b):
-    while b.degree() > 0:
+    while b != 0:
         a, b = b, a % b
     return a.monic()
 ```

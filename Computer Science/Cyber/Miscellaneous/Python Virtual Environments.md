@@ -21,6 +21,8 @@ Installed pip packages are saved in `~/miniforge3/envs/env-name/python3.x/site-p
 `conda activate name`
 ### Deactivation
 `conda deactivate`
+### Deletion
+`conda env remove -n name`
 ### Installing Packages
 `conda` allows you to install packages exclusive to it using `conda install -n name package-name`
 You can still use `pip install` inside the environment normally.

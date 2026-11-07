@@ -8,4 +8,5 @@ a_0 x_{n+1}^0 + ... + a_n x_{n+1}^n = y_{n+1}
 \end{matrix}
 $$
 It can be solved to find $p(x)$.
-In practice, this method is bad as the errors are big, however it can be useful in special cases like some coefficients are known or over a finite field.
+In practice, this method has big errors (in floating point).
+However it can be useful in special cases like some coefficients are known or over a finite field.

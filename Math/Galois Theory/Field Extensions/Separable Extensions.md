@@ -1,0 +1,9 @@
+- An irreducible polynomial in $F[x]$ is separable if it has no multiple root on any extension of $F$
+- Every irreducible polynomial over a field of characteristic 0 is separable.
+- An irreducible polynomial over a field of characteristic $p \neq 0$ is not separable iff it's of the form $a_0 + a_1x^p + ... + a_nx^{np}$
+- A polynomial is separable iff all its irreducible factors are separable
+- An element is separable over $F$ iff it's algebraic and its minimal polynomial is separable
+- An expansion $K / F$ is separable iff every element in $K$ is separable over $F$
+- A field that every finite expansion of it is separable is called a Perfect Field.
+- A field $F$ of characteristic $p \neq 0$ is perfect iff for each $a \in F$ there's $b \in F$ such that $a = b^p$ (every element has a p-th root)
+- Given $K = F(a_1, ..., a_n)$ where $a_1, ..., a_n$ are separable over $F$, then $K$ is a simple extension

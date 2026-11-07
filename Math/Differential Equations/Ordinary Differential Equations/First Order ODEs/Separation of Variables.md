@@ -1,5 +1,5 @@
 A method to solve first order ODEs.
-Given an equation of the (standard) form $y' = X(x)Y(y)$, where $X(x)$ is continuous in $(a, b)$ and $Y(y)$ continuously differentiable in $(c, d)$, that is zero in at most a finite amount of points:
+Given an equation of the (standard) form $y' = X(x)Y(y)$, where $X(x)$ is continuous in $(a, b)$ and $Y(y)$ continuously differentiable in $(c, d)$, that is zero in at most a finite amount of points, the solutions are:
 - $\int^y \frac{1}{Y(t)} dt - \int^x X(t)dt = C$ on each open interval that the function isn't zero in. Note that the first integral is a function in $y$ and the second one a function in $x$, and this solution is given as an implicit function.
 - $y(x) = y_0$ for each $y_0 \in (c, d)$ such that $Y(y_0) = 0$ (those solutions are called singular solutions)
 

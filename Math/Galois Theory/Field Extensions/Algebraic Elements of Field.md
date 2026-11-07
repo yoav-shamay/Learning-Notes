@@ -1,4 +1,4 @@
-## Algebraic Elements
+## Algebraic and Transcendent Elements
 In a field extension $K/F$.
 An element $a \in K$ is called algebraic iff there exists $p(x) \in F[x]$ such that $f(a) = 0$.
 - $a \in K$ is algebraic iff $[F(a) : F]$ is finite, iff $F[a] = F(a)$

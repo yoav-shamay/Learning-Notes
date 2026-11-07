@@ -1,2 +1,2 @@
 - A group, see https://en.wikipedia.org/wiki/Rubik%27s_Cube_group
-- Has order 1260
+- Highest order of element is 1260

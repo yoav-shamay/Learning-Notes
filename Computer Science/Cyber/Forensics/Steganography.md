@@ -50,10 +50,10 @@ You can also try to apply a transformation to one of the images before combinati
 - mirror on an axis
 You can brute force all options if it seems random and check everything, or just try to notice patters that seem like one of those fits when looking at both images at once.
 ## PDFs
-Use pdffiller to uncover hidden texts
-https://www.pdffiller.com/
-Will show hidden textboxes
-Alternatively, open it with foxit reader. will allow selecting hidden text.
+Can contain hidden text. to reveal:
+- Press Ctrl + A and copy everything
+- Use https://www.pdffiller.com/ - will show hidden textboxes
+- open in foxit reader that allows selecting hidden text
 https://tools.pdf24.org/en/extract-images - can extract images in pdf, exactly, can steg on them.
 ## Unicode
 

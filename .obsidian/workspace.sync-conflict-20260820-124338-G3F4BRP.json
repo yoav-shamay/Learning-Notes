@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "f6801c02ff26df49",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4c45ec682f305df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5ac418f51513397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/Ordinary Differential Equations/Linear ODEs/Homogenous Linear ODEs Solving Techniques.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Homogenous Linear ODEs Solving Techniques"
+            }
+          },
+          {
+            "id": "558f0624d825f279",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Cyber/Miscellaneous/Python Virtual Environments.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python Virtual Environments"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e605ea276560faf8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7d16542cdc2bf8c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e71518443053ece",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b8f217008c32f337",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3c0db5ad9ac6da83",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3874a802c114262",
+    "type": "split",
+    "children": [
+      {
+        "id": "979c5310d9139ad0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5bf8a6cc91118e85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Simple Web Server"
+            }
+          },
+          {
+            "id": "0c802f392c97e7a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Science/Cyber/Linux/Useful Commands/Simple Web Server.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Simple Web Server"
+            }
+          },
+          {
+            "id": "0062772dc597b745",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "de4efbed9e9dfcde",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7a4d791be2ecc6cf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer Science/Cyber/Miscellaneous/Python Virtual Environments.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "4840b2f1079780f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "558f0624d825f279",
+  "lastOpenFiles": [
+    "Math/Ordinary Differential Equations/System of ODEs/~syncthing~Linear System of ODEs.md.tmp",
+    "Math/Ordinary Differential Equations/System of ODEs/Linear System of ODEs.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/~syncthing~Linear First Order ODEs.md.tmp",
+    "Math/Ordinary Differential Equations/System of ODEs",
+    "Math/Galois Theory/Fields/Finite Fields.md",
+    "Math/Galois Theory/Fields/Characteristic of field.md",
+    "Math/Galois Theory/Field Extensions/Field extensions.md",
+    "Math/Galois Theory/Fields/Multiplicative Group of a Field.md",
+    "Math/Galois Theory/Compass and Straightedge Constructions.md",
+    "Math/Galois Theory/Field Extensions/Algebraic and Transcendent Extensions.md",
+    "Math/Galois Theory/Field Extensions/Splitting Field.md",
+    "Math/Galois Theory/Field Extensions/Transcendent Elements.md",
+    "Math/Galois Theory/Field Extensions/Equalizer and Fixed Field.md",
+    "Math/Galois Theory/Field Extensions/Algebraic Elements of Field.md",
+    "Math/Galois Theory/Fields",
+    "Math/Galois Theory/Field Extensions",
+    "Math/Ordinary Differential Equations/Missing Equations.md",
+    "Computer Science/Cyber/AI/Prompt Injection.md",
+    "Computer Science/Cyber/AI/Prompt Injection.sync-conflict-20260806-172019-VZJLTHW.md",
+    "Computer Science/Cyber/AI/Prompt Injection.sync-conflict-20260806-172038-VZJLTHW.md",
+    "Computer Science/Cyber/Forensics/Tools/hashcat.md",
+    "Computer Science/Cyber/Forensics/Hash Cracking.md",
+    "Math/Ordinary Differential Equations/Linear ODEs/Homogenous Linear ODEs Solving Techniques.md",
+    "Math/Ordinary Differential Equations/Linear ODEs/Non-Homogenous Linear ODEs Solving Techniques.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Separation of Variables.md",
+    "Math/Ordinary Differential Equations/First Order ODEs/Slope Field.md",
+    "Math/Ordinary Differential Equations/Linear ODEs/Linear ODEs.md",
+    "Math/Ordinary Differential Equations/Explicit ODEs.md",
+    "Computer Science/Cyber/Cryptography/Number Theory/Lattices/Algorithms/Kannan Embedding.md",
+    "Computer Science/Cyber/Cryptography/Number Theory/Lattices/Algorithms/Gaussian Lattice Reduction.md",
+    "Math/Ordinary Differential Equations/Linear ODEs",
+    "Math/Complex Analysis",
+    "Math/Ordinary Differential Equations/Linear Second Order ODEs",
+    "Math/Ordinary Differential Equations/Second Order ODEs",
+    "Math/Ordinary Differential Equations/General Order ODEs"
+  ]
+}
